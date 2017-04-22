@@ -1,51 +1,24 @@
-# WebSite
+# install
 
-The official WebSite of TADSG
+## install nodejs/npm/meteor 
 
-# Setup Developing Environment #
-Make sure you have node and npm in system.
-If not, please install with:
-``` shell
-$ brew install node
-$ brew install npm
-```
+1. `brew install node`
+2. `curl https://install.meteor.com/ | sh`
 
 
-# Install Dependencies #
-Move to project root first:
-``` shell
-$ cd WebSite
-$ npm install # Install dependencies:
-```
+## install project
+
+1. clone project
+2. `meteor npm install`
+3. `meteor`
+4. `meteor npm start`
 
 
-# Run local debug server #
- Run express as debug mode:
-``` shell
-$ cd WebSite # Move to project root first:
-$ DEBUG=WebSite:* npm start
-```
-By default, the web site will run on [http://localhost:3000]()
+## [themeteorchef](https://themeteorchef.com/base/introduction)
+meteor + reactjs + react-bootstrap
 
-## Run in different port number ##
-``` bash
-$ cd WebSite # Move to project root first:
-$ DEBUG=WebSite:* PORT=[port_number] npm start
-```
-
-
-# Deploy #
-Deploy to Heroku
-``` shell
-$ web: npm start
-```
-
-# Pending Materials #
-* [Rick - 高效能執行緖](http://www.accupass.com/go/gdgkaohsiung30) [(slide)](http://www.slideshare.net/rickwu12)
-* [TADSG meeting - 18th](http://www.accupass.com/go/adc18)
-* [新手Q&A](https://hackpad.com/Android-Development--gzrGM9pkKkn)
-
-
-# Candidates of Server #
-* [Hostinger (php)](https://free.com.tw/hostinger/)
-
+1. [meteor](https://www.meteor.com/)
+2. [reactjs](https://www.gitbook.com/book/kdchang/react101/details)
+3. [react-bootstrap](https://react-bootstrap.github.io/)
+4. scss
+ 
